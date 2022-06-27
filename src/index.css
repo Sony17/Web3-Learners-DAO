@@ -4,9 +4,12 @@ body {
   font-family: Inter, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #7700ee;
+  background-color: #050606;
   color: #fff;
   overflow-x: hidden;
+  background-image: url('https://i.pinimg.com/originals/39/f6/a0/39f6a005763b37e2237b320df0e68e31.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 #root {
   min-height: 100vh;
@@ -49,14 +52,32 @@ h1 {
   flex-direction: column;
   width: 960px;
   max-width: calc(100% - 1rem);
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
   margin: auto;
   align-content: center;
   display: flex;
   text-align: center;
-}
+  padding: 3em;
+  opacity: 0.95;
 
+  
+}
+.title{
+  margin-top: .7em;
+  background-color: black;
+  opacity: 0.9;
+  border-radius: 2em;
+}
+.border{
+  padding-bottom: .5em;
+  text-align: center;
+  border-bottom: #057d8d 2px solid ;
+}
+.mint-nft,
+.member-page {
+  background-color:black;
+  border-radius: 2em;
+  border: #057d8d 2px solid;
+}
 .member-page > div {
   display: flex;
   flex-direction: row;
@@ -93,7 +114,7 @@ h1 {
 
 .member-page form h5 {
   margin-top: 0;
-  color: #7700ee;
+  color: #32bfd2;
 }
 
 .member-page form .card > div {
@@ -116,7 +137,7 @@ h1 {
 
 button {
   cursor: pointer;
-  background-color: #000;
+  background-color: black;
   color: #fff;
   border: none;
   font-weight: bold;
@@ -125,6 +146,23 @@ button {
   text-transform: uppercase;
   border-radius: 3rem;
   font-size: 1.2rem;
+  border: #057d8d 3px solid;
+  background-image: linear-gradient(to right, #84fab0 0%, #8fd3f4 51%, #84fab0 100%);
+
+
+}
+
+.btn-mint{
+
+  width: 40%;
+  margin: auto;
+}
+.btn-hero{
+
+width: 40%;
+margin:auto;
+margin-top: 17em;
+
 }
 
 button:hover {
